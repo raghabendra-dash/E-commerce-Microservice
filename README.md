@@ -1,10 +1,12 @@
-# Microservices E-Commerce Project
+<div align="center">
 
-This is a comprehensive e-commerce application built with a microservices architecture. The project is designed to be scalable, maintainable, and resilient, with each core feature of the platform isolated in its own service.
+# 🛒 Microservice Ecommerce Platform 
+  
+This is a scalable and modular eCommerce backend system built using the microservices architecture pattern. Each service is independently developed and maintained, which helps in scalability, maintainability and fault isolation. The services communicate via REST APIs and are orchestrated using Docker and Docker Compose.
 
----
-
-Deployed Web Service: [Click Here]()
+## LIVE - SERVICE 🌐
+Visit the 👉 [_LINK 🔗_](https://flex-gpt-lovat.vercel.app/)
+</div> 
 
 ---
 
@@ -25,7 +27,7 @@ Deployed Web Service: [Click Here]()
 
 The project is organized into two main directories:
 
--   **`api-geteway`**: This is the main entry point for all client requests. It's a lightweight Node.js service responsible for routing incoming requests to the appropriate microservice. It also handles concerns like rate limiting and API composition.
+-   **`api-gateway`**: This is the main entry point for all client requests. It's a lightweight Node.js service responsible for routing incoming requests to the appropriate microservice. It also handles concerns like rate limiting and API composition.
 
 -   **`services`**: This directory contains all the individual microservices. Each service is a self-contained application with its own database, business logic, and API.
     -   `auth`: Manages user authentication, registration, and token verification.
@@ -53,7 +55,7 @@ You must install the dependencies for each service individually. Open your termi
 
 ```bash
 # API Gateway
-cd api-geteway && yarn install && cd ..
+cd api-gateway && yarn install && cd ..
 
 # Auth Service
 cd services/auth && yarn install && cd ../..
@@ -107,7 +109,7 @@ Now, you can start all the services. **You must open a separate terminal for eac
 
 -   **Terminal 1 (API Gateway):**
     ```bash
-    cd api-geteway
+    cd api-gateway
     yarn dev
     ```
     *You should see: `Server is running on port 8080` and you can visit `http://localhost:8080` to see the welcome message.*
