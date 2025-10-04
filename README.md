@@ -5,8 +5,9 @@
 This is a scalable and modular eCommerce backend system built using the microservices architecture pattern. Each service is independently developed and maintained, which helps in scalability, maintainability and fault isolation. The services communicate via REST APIs and are orchestrated using Docker and Docker Compose.
 
 ## 🌐 LIVE - SERVICE 
-Visit the 👉 [_LINK 🔗_](https://e-commerce-microservice-gnvx.onrender.com/)
+Visit the 👉 [_LINK 🔗_](http://bit.ly/4nZM33p)
 </div> 
+ <!-- https://e-commerce-microservice-gnvx.onrender.com/ -->
 
 ---
 
